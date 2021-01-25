@@ -15,7 +15,11 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  new_arr = 
+  new_arr = [
+  {:name=>"Ida Lupino", :favorite_movie=>"The Hitch-Hiker"},
+  {:name=>"Orson Welles", :favorite_movie=>"Citizen Kane"},
+  {:name=>"Andrej Tarkovsky", :favorite_movie=>"Solaris"}
+]
 end
 
 def aoh_lookup(aoh, row, key)
